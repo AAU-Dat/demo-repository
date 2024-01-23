@@ -15,5 +15,5 @@ jobs:
       uses: pozil/auto-assign-issue@v1
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          assignees: Daniel-Runge
+          team: cs-23-dat-7-01
           numOfAssignee: 1
