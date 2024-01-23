@@ -13,6 +13,6 @@ jobs:
     - name: 'Auto-assign issue'
       uses: pozil/auto-assign-issue@v1
       with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.PAT_GITHUB_TOKEN }}
           teams: cs-23-dat-7-01
           numOfAssignee: 1
